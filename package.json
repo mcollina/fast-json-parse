@@ -1,6 +1,6 @@
 {
   "name": "fast-json-parse",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Parse json safely and at max speed",
   "main": "parse.js",
   "scripts": {
