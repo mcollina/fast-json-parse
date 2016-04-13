@@ -56,7 +56,6 @@ suite.add('json-parse-safe', function parseBench () {
   }
 })
 
-
 suite.add('try catch here', function tryCatchBench () {
   var data = null
   try {
