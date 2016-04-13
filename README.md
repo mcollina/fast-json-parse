@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/mcollina/fast-json-parse.svg)](https://travis-ci.org/mcollina/fast-json-parse)
 
-The fastest way to parse JSON safely.
+It is equivalent to [json-parse-safe](http://npm.im/json-parse-safe),
+but it set both the `err` and `value` property to null.
 
 ## Install
 
@@ -12,8 +13,7 @@ npm i fast-json-parse --save
 
 ## Usage
 
-Depending on your application, the constructor mode can be faster or
-slower.
+You can use it as a function or via a contructor, as you prefer.
 
 ### function
 
