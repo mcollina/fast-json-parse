@@ -3,6 +3,14 @@
   "version": "1.0.1",
   "description": "Parse json safely and at max speed",
   "main": "parse.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcollina/fast-json-parse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mcollina/fast-json-parse/issues"
+  },
+  "homepage": "https://github.com/mcollina/fast-json-parse#readme",
   "scripts": {
     "test": "standard && tap test.js"
   },
