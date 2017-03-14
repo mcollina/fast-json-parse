@@ -26,10 +26,9 @@ var fs = require('fs')
 var result = parse(fs.readFileSync('./package.json'))
 
 if (result.err) {
-  // unable to parse json
-  console.log(err.message)
+  console.log('unable to parse json', result.err.message)
 } else {
-  console.log('json parsed successfully')
+  console.log('json parsed successfully', result.value)
 }
 ```
 
@@ -44,10 +43,9 @@ var fs = require('fs')
 var result = new Parse(fs.readFileSync('./package.json'))
 
 if (result.err) {
-  // unable to parse json
-  console.log(err.message)
+  console.log('unable to parse json', result.err.message)
 } else {
-  console.log('json parsed successfully')
+  console.log('json parsed successfully', result.value)
 }
 ```
 
