@@ -5,6 +5,10 @@
 It is equivalent to [json-parse-safe](http://npm.im/json-parse-safe),
 but it set both the `err` and `value` property to null.
 
+The reason why this is fast is that `try/catch` inhibits the functions
+in which you use them to be optimized. This assumption holds true up to
+Node 6, from Node 7 and forward this module is not useful anymore.
+
 ## Install
 
 ```
