@@ -27,7 +27,7 @@ You can use it as a function or via a contructor, as you prefer.
 var parse = require('fast-json-parse')
 var fs = require('fs')
 
-var result = parse(fs.readFileSync('./package.json'))
+var result = parse(fs.readFileSync('./package.json', 'utf8'))
 
 if (result.err) {
   console.log('unable to parse json', result.err.message)
